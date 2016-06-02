@@ -1,0 +1,62 @@
+body{
+	background-color: black;
+}
+#main-content{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -200px;
+	
+	
+
+}
+
+#cube1{
+	background-color: red;
+	float: left;
+	width: 50%;
+	height: 50%;
+
+	
+	
+	
+
+}
+#cube2{
+	background-color: yellow;
+	float: left;
+	width: 50%;
+	height: 50%;
+	
+	
+	
+
+}
+#cube3{
+	background-color: blue;
+	float: left;
+	height: 50%;
+	width: 50%;
+	
+	
+
+}
+#cube4{
+	background-color: purple;
+	float: left;
+	width: 50%;
+	height: 50%;
+
+
+}
+#cube1, #cube2{
+	display: inline-block;
+	
+
+}
+#cube3, #cube4{
+	display: inline;
+
+}
